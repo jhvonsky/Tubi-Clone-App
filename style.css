@@ -1,0 +1,186 @@
+body {
+    overflow-x: hidden;
+}
+
+.input-control {
+    opacity: .4;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.input-control::placeholder {
+    text-align: center;
+    color: rgb(124, 124, 124);
+    opacity: 1;
+    outline: none;
+    border: none;
+}
+
+.main-header {
+    background: url('./img/watch.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-header .main-heading {
+    font-size: 3rem;
+    color: white;
+}
+
+.p-subheading {
+    color: white;
+    font-size: 2rem;
+}
+
+.btn-head {
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    transition: all ease .2s;
+}
+
+.reg,
+.support-btn,
+.browse-btn {
+    transition: all ease .2s;
+}
+
+.support-btn {
+    width: 15%;
+    margin: auto;
+}
+
+.btn-head:hover,
+.reg:hover,
+.support-btn:hover,
+.browse-btn:hover {
+    transform: scale(1.1);
+}
+
+.main-header .row {
+    display: flex;
+    flex-direction: column;
+}
+
+main .container .stream {
+    height: 80vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main .container .stream .main-heading {
+    font-size: 3rem;
+}
+
+main .container .stream .row .logo .row .col {
+    display: flex !important;
+    justify-content: space-evenly;
+    font-size: 2rem;
+}
+
+.title {
+    background: url('/img/jakob-owens-CiUR8zISX60-unsplash.jpg') rgba(0, 0, 0, 0.4);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.title .container .row .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.title .main-heading {
+    font-size: 3rem;
+}
+
+.title .container .row .col .row-logo i {
+    color: white;
+    font-size: 2rem;
+}
+
+.title .container .row .col .row-logo {
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 40%;
+}
+
+.title .container .row .col .browse-btn {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.faq {
+    height: 100vh;
+}
+
+.faq .container .row .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq .container .row .main-heading {
+    font-size: 3rem;
+}
+
+.faq .container .row .col .accordion {
+    width: 100%;
+}
+
+footer {
+    background-color: #171717;
+    /* height: 60vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .row h6 {
+    color: rgb(109, 109, 109);
+    text-transform: uppercase;
+    text-align: start;
+}
+
+footer .row ul {
+    list-style: none;
+}
+
+footer .row ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:992px) {
+    .main-header {
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .support-btn {
+        width: 50%;
+    }
+
+    footer .row > *{
+        text-align: center;
+    }
+
+    footer h6 {
+        text-align: center;
+        transform: translateX(220px);
+    }
+
+    .browse { display: none; }
+}
