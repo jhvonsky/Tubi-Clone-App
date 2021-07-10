@@ -31,6 +31,4 @@ Call the template function and send parameter returnValue DONE
 Set the wrapper into header main DONE
 Set the h1 for result for DONE
 if input value is null return back to default condition DONE
-Change the register into icon
-Make responsive(Desktop,Tablet,Phone)
-Add a hover effect
+Make responsive(Desktop,Tablet,Phone) DONE
