@@ -1,9 +1,9 @@
 import { default as templating } from "./template.js";
 import { default as defaultTemplate } from "./default.js";
-const homeApiUrl = 'https:api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=04c35731a5ee918f014970082a0088b1&page=1';
+const homeApiUrl = 'https:api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=request_your_own_api_key&page=1';
 const img_url = 'https://image.tmdb.org/t/p/w1280';
 const api_url = 'https://api.themoviedb.org/3/';
-const api_key = '04c35731a5ee918f014970082a0088b1';
+const api_key = 'request_your_own_api_key';
 const wrapper = document.querySelector('main');
 const input = document.querySelector('.form-control');
 
